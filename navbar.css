@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    /* border:1px solid black; */
+}
+
+#navbar>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-left: 20px;
+    border: 1px solid black;
+    height: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: blanchedalmond;
+    color: brown;
+}
