@@ -51,9 +51,9 @@ function display(data) {
             count3++;
         }
     })
-    document.querySelector('#Batch-1').innerText = "Batch01 - " + count1 + " Students"
-    document.querySelector('#Batch-2').innerText = "Batch02 - " + count2 + " Students"
-    document.querySelector('#Batch-3').innerText = "Batch03 - " + count3 + " Students"
+    document.querySelector('#Batch-1').innerText = "Batch01 - " + "(" + count1 + ")" + "Students"
+    document.querySelector('#Batch-2').innerText = "Batch02 - " + "(" + count2 + ")" + "Students"
+    document.querySelector('#Batch-3').innerText = "Batch03 - " + "(" + count3 + ")" + "Students"
 }
 
 function removeFun(elem, index) {
